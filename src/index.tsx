@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TodoContainer from "./contentContainer"
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <TodoContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
