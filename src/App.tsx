@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./chibi.gif";
 import "./App.css";
-import contentContainer from "./contentContainer";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -9,13 +9,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          <code>ربيع الأغنيااات</code>
         </p>
         <ul>
           <li>
             <a
               className="App-link"
-              href="https://reactjs.org"
+              href="https://www.instagram.com/techorad/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -25,7 +25,7 @@ function App() {
           <li>
             <a
               className="App-link"
-              href="https://reactjs.org"
+              href="https://www.linkedin.com/in/raghadalafeef/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -36,8 +36,11 @@ function App() {
 
         
       </header>
-      <div className="content">
-        <h1>Hi</h1>
+      <div className='App-content'>
+        <Content/>
+        <Content/>
+        <Content/>
+        <Content/>
       </div>
     </div>
   );

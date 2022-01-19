@@ -1,15 +1,11 @@
 
-
+body {
+  background-color: rgb(255, 255, 255);
+}
 .App {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
 }
 
 .App-header {
@@ -41,6 +37,24 @@
 .App-header li {
   display: flex;
   padding: 0 3vh;
+}
+
+.App-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.App-content .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-basis: 10vh; */
+  /* width: 30vh; */
+}
+
+.App-content .content img {
+  width: 40vh;
 }
 /*
 @media (prefers-reduced-motion: no-preference) {
